@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 const SingleSkill = ({ imgSvg, text }) => {
   return (
     <div className="hover:-translate-y-10 transition-all duration-500">

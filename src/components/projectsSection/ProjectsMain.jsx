@@ -5,32 +5,32 @@ import { fadeIn } from "../../framerMotion/variants";
 
 const projects = [
   {
-    name: "Vacation of Africa",
-    year: "Mar2022",
+    name: "Travel App",
+    year: "Mar-2022",
     align: "right",
     image: "../../public/images/website-img-1.jpg",
-    link: "#",
+    link: "https://stately-melba-d9b6b1.netlify.app/",
   },
   {
-    name: "Moola App",
-    year: "Sept2022",
+    name: "React Job App",
+    year: "Sept-2024",
     align: "left",
     image: "../../public/images/website-img-2.webp",
-    link: "#",
+    link: "https://github.com/Tahsinshelby62/React-Job-Website",
   },
   {
-    name: "Tourzania",
-    year: "Jan2023",
+    name: "Dice Game",
+    year: "2025",
     align: "right",
     image: "../../public/images/website-img-3.jpg",
-    link: "#",
+    link: "https://github.com/Tahsinshelby62/diceGame",
   },
   {
-    name: "Bank of Luck",
-    year: "May2024",
+    name: "Know Me App",
+    year: "June 2025",
     align: "left",
     image: "../../public/images/website-img-4.jpg",
-    link: "#",
+    link: "https://huggingface.co/spaces/tsay007/career_conversations2",
   },
 ];
 
@@ -54,6 +54,7 @@ const ProjectsMain = () => {
               year={project.year}
               align={project.align}
               image={project.image}
+              link={project.link}
             />
           );
         })}
