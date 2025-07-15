@@ -15,7 +15,7 @@ const HeroPic = () => {
         <img
           src="/images/HexaPic.png"
           alt="Md Tahsin"
-          className="w-[300px] h-[400px] object-cover clip-hexagon shadow-xl border-4 border-white"
+          className="w-[300px] h-[400px] object-cover"
         />
       </div>
 
